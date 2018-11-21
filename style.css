@@ -1,0 +1,15 @@
+.deleteQuestion {
+  background-color: red;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  html{
+    width: 100%;
+  }
+
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    html{
+    width: 100%;

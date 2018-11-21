@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>Create A Test</title>
+</head>
+<body>
+  <button id="logOutButton">Log Out</button>
+  <button id="backButton">Go back</button>
+  <h1>Create Test</h1>
+  <input type="text" id="textboxQuizName" placeholder="Name of Test"/>
+  <input type="text" id="textboxQuizTimeLimit" placeholder="Time Limit (minutes)" />
+  <button id="btnSubmitQuizName">Add</button>
+  <fieldset>
+    <legend>Questions and answers</legend>
+    <div id="quizForm">
+      <div id = "quizInformation">
+        <label id="testName">Test Name: <h3 id = "headerQuizName"></h3></label>
+        <label id="testTimeLimit">Time Limit: <h3 id = "headerTimeLimit" ></h3> Minutes</label>
+      </div>
+      <ol id="listQuestionAndAnswer">
+      </ol>
+    </div>
+    <button id="addMultipleChoiceQuestion">Add Question</button>
+    <button id="submitButton">Submit</button>
+    <div id="testInfo"></div>
+  </fieldset>
+
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCMvP3PJQeWNQ8Th2eTuHBdYY2Vq3xDRYU",
+        authDomain: "teacher-test-creator-app.firebaseapp.com",
+        databaseURL: "https://teacher-test-creator-app.firebaseio.com",
+        projectId: "teacher-test-creator-app",
+        storageBucket: "teacher-test-creator-app.appspot.com",
+        messagingSenderId: "496160881366"
+    };
+    firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="app.js"></script>
+</html>

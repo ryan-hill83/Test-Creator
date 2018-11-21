@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test Creator Login</title>
+    <!-- <link rel="stylesheet" type="text/css" href="register.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 480px)" href="mobile.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="desktop.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+
+</head>
+
+<body>
+  <img src="images/logo_small.jpg" alt="logo">
+    <h3>Welcome to Test Creator</h3>
+    <h4>Students</h4>
+    <p>Please create an account and check the <u>student</u> box. <br>If you already have an account please click the login button</p>
+    <p>Log in to start your test. You will need your teachers ID and the test ID</p>
+    <h4>Teachers</h4>
+    <p>Please create an account and check the <u>teacher</u> box. <br>If you already have an account please click the login button</p>
+    <p>Log in to view your tests, view student scores, or create new test.</p>
+  <div id="regLogin">
+    <button id="btnSelectRegister">Register</button>
+    <button id="btnSelectLogin">Login</button>
+</div>
+
+
+
+</body>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCMvP3PJQeWNQ8Th2eTuHBdYY2Vq3xDRYU",
+        authDomain: "teacher-test-creator-app.firebaseapp.com",
+        databaseURL: "https://teacher-test-creator-app.firebaseio.com",
+        projectId: "teacher-test-creator-app",
+        storageBucket: "teacher-test-creator-app.appspot.com",
+        messagingSenderId: "496160881366"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="register.js"></script>
+
+</html>

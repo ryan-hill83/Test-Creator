@@ -1,0 +1,64 @@
+h1{
+   text-shadow: 3px 3px black;
+}
+li{
+list-style:none;
+}
+body{
+  background-color: #1e3869;
+  color: #eae6de;
+  font-family: 'Chakra Petch', sans-serif;
+}
+a{
+  text-decoration: none;
+   color: #eae6de
+}
+a:visited{
+  text-decoration: none;
+   color: #eae6de
+ }
+a:hover{
+  text-decoration: none;
+   color: yellow;
+}
+a:active{
+  text-decoration: none;
+   color: #eae6de
+}
+#regLogin button{
+  width: 120px;
+}
+button{
+    background-color: #eae6de;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    transition-duration: 0.01s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+  color: white;
+  background-color: #38380c;
+}
+button:focus{outline:0;}
+
+.multipleChoiceQuestion{margin-bottom:3px;}
+.multipleChoiceAnswerOne{margin-bottom:3px;}
+.multipleChoiceAnswerTwo{margin-bottom:3px;}
+/* .multipleChoiceAnswerThree{margin-bottom:3px;} */
+.multipleChoiceAnswerFour{margin-bottom:3px;}
+@media (min-width: 768px) and (max-width: 1024px) {
+  html{
+    width: 100%;
+  }
+
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    html{
+    width: 100%;

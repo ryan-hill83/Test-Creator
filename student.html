@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Take Test</title>
+    <link rel="stylesheet" type="text/css" href="student.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 480px)" href="mobile.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="desktop.css" /> -->
+    <script src="moment.min.js"></script>
+    <script>
+        moment().format();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <button id="logOutButton">Log Out</button>
+  <div>
+ <h3>Enter the Test ID below</h3>
+ <input type='text' id="testIDName" placeholder="Enter Test ID"/>
+ <input type='text' id="teacherIdTextbox" placeholder="Enter Teacher ID"/>
+ <button id='buttonSubmit'>Submit</button>
+</div>
+
+   <table>
+       <tr>
+         <td id="timeDisplay"></td>
+       </tr>
+       <tr>
+         <td id="starttime"></td>
+       </tr>
+       <tr>
+         <td id ="endtime"></td>
+       </tr>
+
+   </table>
+   <div id="showtime" ></div>
+  <div class="popup">
+    <span class="popuptext" id="myPopup">Popup text...</span>
+  </div>
+
+  <div id="container">
+ </div>
+
+
+   <div id="testContainer">
+     <ol id='questionsListElement'>
+     </ol>
+   </div>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCMvP3PJQeWNQ8Th2eTuHBdYY2Vq3xDRYU",
+        authDomain: "teacher-test-creator-app.firebaseapp.com",
+        databaseURL: "https://teacher-test-creator-app.firebaseio.com",
+        projectId: "teacher-test-creator-app",
+        storageBucket: "teacher-test-creator-app.appspot.com",
+        messagingSenderId: "496160881366"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<script src="takeTest.js"></script>
+<!-- <script src="student.js"></script> -->
+
+</html>
