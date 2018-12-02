@@ -10,7 +10,6 @@ const usersRef =  database.ref("Users")
 let currentJSUser = localStorage.getItem("vCurrentUser")
 let currentUserID = currentJSUser
 
-console.log(currentUserID)
 firebase.auth().onAuthStateChanged(function(user) {
 if (user) {
   viewTestsBtn.addEventListener('click', function () {
@@ -54,7 +53,7 @@ function showResults(){
                         studentObj = yourStudents[studentKey]
                         Object.keys(studentObj.Tests).forEach(studentTestId => {
                             const studentTestScore = studentObj.Tests[studentTestId]
-                            resultsList.innerHTML += `<li>Name: ${name} &emsp; Score: ${studentTestScore}</li>`
+                            resultsList.innerHTML = `<li>Name: ${name} &emsp; Score: ${studentTestScore}</li>`
                         })
                       }
                   })

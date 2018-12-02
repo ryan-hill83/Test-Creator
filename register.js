@@ -26,25 +26,26 @@ register()
 
 function register() {
   regLogin.innerHTML = `<h3>Register User</h3>
-  <div>
-    <label>Enter Email as Username</label>
-    <input type="email" id="emailTextBox" placeholder="Enter your e-mail address as username"/>
-    <input type="email" id="emailTextBox2" placeholder="Confirm e-mail address" />
-  </div>
-  <div>
-    <label>Create Password</label>
-    <input type="password" id="passwordTextBox" placeholder="Create a password"/>
-    <input type="password" id="passwordTextBox2" placeholder="Confirm password"/>
-  </div>
-  <div>
-    <label>Enter Name</label>
-    <input type ="textbox" id="firstNameTextBox" placeholder="First Name"/>
-    <input type ="textbox" id="lastNameTextBox" placeholder="Last Name"/>
-  </div>
-   <div>
-    <label>School Name</label>
-    <input type ="textbox" id="schoolNameTextBox" placeholder="Enter School"/>
-  </div>
+  <table align="center">
+    <td><label>Enter Email as Username</label></td>
+    <td><input type="email" id="emailTextBox" placeholder="Enter your e-mail address as username"/><br>
+    <input type="email" id="emailTextBox2" placeholder="Confirm e-mail address" /></td>
+  </tr>
+  <tr>
+    <td><label>Create Password</label></td>
+    <td><input type="password" id="passwordTextBox" placeholder="Create a password"/><br>
+    <input type="password" id="passwordTextBox2" placeholder="Confirm password"/></td>
+  </tr>
+  <tr>
+    <td><label>Enter Name</label></td>
+    <td><input type ="textbox" id="firstNameTextBox" placeholder="First Name"/><br>
+    <input type ="textbox" id="lastNameTextBox" placeholder="Last Name"/></td>
+  </tr>
+   <tr>
+    <td><label>School Name</label></td>
+    <td><input type ="textbox" id="schoolNameTextBox" placeholder="Enter School"/></td>
+  </tr>
+    </table>
   <div>
     <label>Select Account Type</label><br>
     <input type="radio" value="teacher" name="accountType"> Teacher</input>
@@ -142,12 +143,18 @@ function register() {
 function login() {
 
   regLogin.innerHTML = `<h3>Login User</h3>
-<label>Username</label>
-<input type="email" id="loginEmailTextBox" placeholder="Enter email address" />
-<label>Password</label>
-<input type="password" id="loginPasswordTextBox" placeholder="Enter password" />
-<button id="btnLogin">Login</button>
-</body>`
+  <table align="center">
+  <tr>
+  <td><label>Username</label></td>
+  <td><input type="email" id="loginEmailTextBox" placeholder="Enter email address" /></td>
+  </tr>
+  <tr>
+  <td><label>Password</label></td>
+  <td><input type="password" id="loginPasswordTextBox" placeholder="Enter password" /></td>
+  </tr>
+  </table>
+  <button id="btnLogin">Login</button>
+  </body>`
 
   let loginEmailTextBox = document.getElementById("loginEmailTextBox")
   let loginPasswordTextBox = document.getElementById("loginPasswordTextBox")

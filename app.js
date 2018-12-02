@@ -186,8 +186,8 @@ let number = Math.floor(Math.random() * 100000000000000000000)
   <input type="checkbox" class="checkboxMultipleChoiceAnswerThree" id="checkboxMultipleChoiceAnswerThree${number}"/>
   <input type="text" class="multipleChoiceAnswerThree" id="multipleChoiceAnswerThree${number}" placeholder="Answer" /><br>D.
   <input type="checkbox" class="checkboxMultipleChoiceAnswerFour" id="checkboxMultipleChoiceAnswerFour${number}"/>
-  <input type="text" class="multipleChoiceAnswerFour" id="multipleChoiceAnswerFour${number}" placeholder="Answer" />
-  <button class="deleteQuestion" id="deleteQuestion${number}" onclick="deleteQuestionFunction(this.parentElement)">remove question</button>
+  <input type="text" class="multipleChoiceAnswerFour" id="multipleChoiceAnswerFour${number}" placeholder="Answer" /><br>
+  <button class="deleteQuestion" id="deleteQuestion${number}" onclick="deleteQuestionFunction(this.parentElement)">Remove Question</button>
 </li>`
 
   testQuestionType2IDArray.push(number)

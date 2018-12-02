@@ -13,11 +13,13 @@
     color: black;
 }
 
+#btnTestSubmit{
+    margin-left:50%;
+  transform: translateX(-50%);
+}
 
 #startbtn{
-
-
-margin-left: 35%;
+/* margin-left: 35%; */
 margin-top: 30px;
 width:20%;
 font-size: 20px;
@@ -106,6 +108,7 @@ font-size: 20px;
   @media (min-width: 320px) and (max-width: 480px) {
     html{
     width: 100%;
+    }
 
 body {
   background-color: #1e3869;

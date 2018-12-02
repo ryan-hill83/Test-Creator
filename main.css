@@ -1,3 +1,15 @@
+.container{
+  position:absolute;
+  margin-top:5px;
+  margin-left:50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.top_margin{
+  margin-top: 40px;
+}
+
 h1{
    text-shadow: 3px 3px black;
 }
@@ -40,6 +52,7 @@ button{
     border-radius: 4px;
     transition-duration: 0.01s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top:5px;
 }
 button:hover{
   color: white;
@@ -47,10 +60,10 @@ button:hover{
 }
 button:focus{outline:0;}
 
-.multipleChoiceQuestion{margin-bottom:3px;}
-.multipleChoiceAnswerOne{margin-bottom:3px;}
-.multipleChoiceAnswerTwo{margin-bottom:3px;}
-/* .multipleChoiceAnswerThree{margin-bottom:3px;} */
+.multipleChoiceQuestion{margin-bottom:10px;}
+.multipleChoiceAnswerOne{margin-bottom:10px;}
+.multipleChoiceAnswerTwo{margin-bottom:10px;}
+ .multipleChoiceAnswerThree{margin-bottom:10px;} 
 .multipleChoiceAnswerFour{margin-bottom:3px;}
 @media (min-width: 768px) and (max-width: 1024px) {
   html{
@@ -62,3 +75,5 @@ button:focus{outline:0;}
   @media (min-width: 320px) and (max-width: 480px) {
     html{
     width: 100%;
+    }
+  }
