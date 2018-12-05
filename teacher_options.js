@@ -6,8 +6,7 @@ let currentJSUser = localStorage.getItem("vCurrentUser")
 let currentUserID = currentJSUser
 console.log(currentUserID)
 
-teacherCode.innerHTML = `<h1>Teacher Home</h1>
-<p>Your teacher code is <u>${currentUserID}<u> </p>`
+teacherCode.innerHTML = `<p>Your Teacher Code is <strong><u>${currentUserID}</u></strong></p>`
 
 createBtn.addEventListener('click',function(userID){
       testCreatorApp()
