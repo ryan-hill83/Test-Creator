@@ -11,5 +11,6 @@ http://testcreatorv3.surge.sh/
 ### Screenshot ###
 
 ![](https://github.com/rgawick/test_creator/blob/master/create_test.png)
-![](https://github.com/rgawick/test_creator/blob/master/testcreator.png =300x552)
+![](https://github.com/rgawick/test_creator/blob/master/testcreator.png)
 
+<img src="https://github.com/rgawick/test_creator/blob/master/testcreator.png" width="300" height="552" />
