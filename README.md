@@ -10,5 +10,5 @@ http://testcreatorv3.surge.sh/
 
 ### Screenshot ###
 
-![](test_creator.png)
+![](https://github.com/rgawick/test_creator/blob/master/create_test.png)
 
