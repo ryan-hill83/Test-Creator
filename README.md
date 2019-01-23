@@ -10,5 +10,5 @@ http://testcreatorv3.surge.sh/
 
 ### Screenshot ###
 
-![](epicride.gif)
+![](test_creator.png)
 
