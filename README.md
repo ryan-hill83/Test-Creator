@@ -4,7 +4,7 @@ This website allows teachers to create multiple choice tests for their students 
 
 This project was created using HTML, CSS, Javascript and Firebase for the database functionality.
 
-### Live Url ###
+### Live URL ###
 
 http://testcreatorv3.surge.sh/   
 
