@@ -13,11 +13,6 @@
   padding: 0px 10px 30px 10px;
 }
 
-.logo_container{
-  width: 100%;
-  background-color: white;
-}
-
 .top_margin{
   margin-top: 40px;
 }
@@ -75,7 +70,7 @@ button:focus{outline:0;}
 .multipleChoiceQuestion{margin-bottom:10px;}
 .multipleChoiceAnswerOne{margin-bottom:10px;}
 .multipleChoiceAnswerTwo{margin-bottom:10px;}
- .multipleChoiceAnswerThree{margin-bottom:10px;} 
+.multipleChoiceAnswerThree{margin-bottom:10px;} 
 .multipleChoiceAnswerFour{margin-bottom:3px;}
 
 @media (min-width: 768px) and (max-width: 1024px) {
